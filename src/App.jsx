@@ -6,7 +6,10 @@ const App = () => {
   return (
     <>
     <Hero/>
-    <Card/>
+    <Card image={"images/project4.png"}
+          title={"AI Video Editor "}
+          subtitle={"React+Tailwind"}/>
+   
     </>
   )
 }
