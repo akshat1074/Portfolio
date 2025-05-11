@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react'
+import { ExternalLink, Github, GithubIcon } from 'lucide-react'
 import React,{useState} from 'react'
 
 
@@ -7,7 +7,7 @@ const Card = ({image,title,subtitle,liveLink,githubLink}) => {
 
   return (
     <div 
-    className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+    className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-gradient-to-br from-cyan-200 via-sky-100 to-blue-200  transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
     onMouseEnter={() => setIsHovered(true)}
     onMouseLeave={() => setIsHovered(false)}
   >
@@ -33,15 +33,16 @@ const Card = ({image,title,subtitle,liveLink,githubLink}) => {
              <ExternalLink size={16}/>
              <span>Live Demo</span>
            </a>
-           <a 
-          href={githubLink} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-gray-700 hover:bg-gray-900 text-white px-4 py-2 rounded flex items-center space-x-2 transition-colors duration-300"
-        >
-          <Github size={16} />
-          <span>GitHub</span>
-        </a>
+           <div className='group'>
+           <a href={githubLink} className='flex items-center px-5 py-2 rounded-lg bg-black text-white group-hover:bg-white-50 transition-colors duration-300 '>
+                <div className='group-hover:text-black transition-colors duration-300' >
+                   <span className='flex items-center ' >
+                      <GithubIcon/>
+                      Github
+                   </span>
+                </div>
+             </a>
+             </div>
          </div>
 
     </div>
