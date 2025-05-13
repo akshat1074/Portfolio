@@ -7,6 +7,12 @@ import Node from '../icons/Node'
 import Postsql from '../icons/Postsql'
 import Reactt from '../icons/Reactt'
 import Typescript from '../icons/Typescript'
+import Express from '../icons/Express'
+import Javascript from '../icons/Javascript'
+import Html from '../icons/Html'
+import Css from '../icons/Css'
+import Git from '../icons/Git'
+import Socket from '../icons/Socket'
 
 const iconComponents={
   Tailwind:Tailwind,
@@ -16,7 +22,13 @@ const iconComponents={
   Node:Node,
   Postsql:Postsql,
   Reactt:Reactt,
-  Typescript:Typescript
+  Typescript:Typescript,
+  Express:Express,
+  Javascript:Javascript,
+  Html:Html,
+  Css:Css,
+  Git:Git,
+  Socket:Socket
  }
 
 const Techcard = ({icon,text}) => {

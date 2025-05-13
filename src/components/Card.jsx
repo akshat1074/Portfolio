@@ -7,7 +7,7 @@ const Card = ({image,title,subtitle,liveLink,githubLink}) => {
 
   return (
     <div 
-    className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-gradient-to-br from-cyan-200 via-sky-100 to-blue-200  transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
+    className=" py-4 my-8 max-w-sm rounded-lg overflow-hidden shadow-lg bg-gradient-to-br from-cyan-200 via-sky-100 to-blue-200  transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl"
     onMouseEnter={() => setIsHovered(true)}
     onMouseLeave={() => setIsHovered(false)}
   >

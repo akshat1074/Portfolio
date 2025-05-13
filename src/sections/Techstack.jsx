@@ -3,10 +3,18 @@ import Techcard from '../components/Techcard'
 
 const Techstack = () => {
   return (
-    <div className='flex justify-center items-center p-2 gap-2'>
+    <div >
+    
+       <h1 className='text-3xl font-bold  pl-24 pt-12'>Tools I have used</h1>
+   <div className='flex  justify-center items-center  gap-2 pt-4 max-w-5xl
+'>
     <Techcard 
     icon="Node"
     text="Nodejs"
+    />
+    <Techcard
+     icon="Javascript"
+     text="Javascript"
     />
     <Techcard 
     icon="Typescript"
@@ -17,9 +25,20 @@ const Techstack = () => {
     text="React"
     />
     <Techcard 
+    icon="Html"
+    text="HTML"
+    />
+    <Techcard 
+    icon="Css"
+    text="CSS"
+    />
+    <Techcard 
     icon="Tailwind"
     text="tailwindcss"
     />
+ 
+    </div>
+    <div className='flex justify-center items-center content-between gap-2 pt-4 max-w-5xl'>
     <Techcard 
     icon="Nextjs"
     text="Nextjs"
@@ -37,9 +56,14 @@ const Techstack = () => {
     text="Docker"
     />
     <Techcard 
-    icon="Tailwind"
-    text="tailwindcss"
+    icon="Git"
+    text="Git"
     />
+    <Techcard
+     icon="Express"
+     text="express"/>
+     </div>
+    
     </div>
 )
 }
