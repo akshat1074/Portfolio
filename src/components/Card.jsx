@@ -34,7 +34,7 @@ const Card = ({image,title,subtitle,liveLink,githubLink}) => {
              <span>Live Demo</span>
            </a>
            <div className='group'>
-           <a href={githubLink} className='flex items-center px-5 py-2 rounded-lg bg-black text-white group-hover:bg-white-50 transition-colors duration-300 '>
+           <a href={githubLink} target="_blank" className='flex items-center px-5 py-2 rounded-lg bg-black text-white group-hover:bg-white-50 transition-colors duration-300 '>
                 <div className='group-hover:text-black transition-colors duration-300' >
                    <span className='flex items-center ' >
                       <GithubIcon/>

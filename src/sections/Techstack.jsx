@@ -5,7 +5,7 @@ const Techstack = () => {
   return (
     <div >
     
-       <h1 className='text-3xl font-bold  pl-24 pt-12'>Tools I have used</h1>
+       <h1 className='font-mono text-4xl font-bold  pl-24 pt-12 pb-6 underline decoration-dashed underline-offset-8 decoration-sky-500'>Tools I have used</h1>
    <div className='flex  justify-center items-center  gap-2 pt-4 max-w-5xl
 '>
     <Techcard 
