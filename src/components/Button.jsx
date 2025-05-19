@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Button = ({text,className,id}) => {
+const Button = ({ text, className, id }) => {
   return (
-    <a   
-       onClick={(e)=>{
-         e.preventDefault();
+    <a
+      onClick={(e) => {
+        e.preventDefault(); // Stop the link from jumping instantly
 
-         const target = document.getElementById("counter");
+        const target = document.getElementById("counter"); // Find the section with ID "counter"
 
-         if(target && id){
+        // Only scroll if we found the section and an ID is passed in
+        // taht prevents the contact button from scrolling to the top
+        if (target && id) {
           const offset = window.innerHeight * 0.15; // Leave a bit of space at the top
 
           // Calculate how far down the page we need to scroll
@@ -17,15 +19,19 @@ const Button = ({text,className,id}) => {
 
           // Scroll smoothly to that position
           window.scrollTo({ top, behavior: "smooth" });
-         }
-       }}>
-        <div className='cta-button group'>
-            <div className='bg-circle'/>
-            <p className='text'>{text}</p>
-              <img src="/images/arrow-down.svg" alt="arrow"/>
+        }
+      }}
+      className={`${className ?? ""} cta-wrapper`} // Add base + extra class names
+    >
+      <div className="cta-button group">
+        <div className="bg-circle" />
+        <p className="text">{text}</p>
+        <div className="arrow-wrapper">
+          <img src="/images/arrow-down.svg" alt="arrow" />
         </div>
+      </div>
     </a>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
