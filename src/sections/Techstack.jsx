@@ -49,7 +49,7 @@ const Techstack = () => {
     />
     <Techcard 
     icon="Postsql"
-    text="tailwindcss"
+    text="PostgreSQL"
     />
     <Techcard 
     icon="Docker"

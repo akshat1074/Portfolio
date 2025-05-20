@@ -10,24 +10,34 @@ const Work = () => {
     <Card 
       image={"images/project5.png"}
       title={"Subconcious"}
-      subtitle={"A second brain"}
+      subtitle={"A MERN-stack second brain app which is used to store your important Tweets and Links"}
       githubLink={"https://github.com/akshat1074/Subconcious"}
      />
     <Card 
          image={"images/project4.png"}
-          title={"AI Video Editor "}
-          subtitle={"React+Tailwind"}
+          title={"AI Video Editor(Landing Page) "}
+          subtitle={" Using React and Tailwind a modern design landing page"}
           githubLink={"https://github.com/akshat1074/Xora"}/>
      <Card 
          image={"images/project6.png"}
-          title={"AI Video Editor "}
-          subtitle={"React+Tailwind"}
+          title={"Chatty "}
+          subtitle={"A MERN-stack plus socket.io real-time chat application "}
           githubLink={"https://github.com/akshat1074/Chat"}/>
       <Card 
          image={"images/project7.png"}
-          title={"AI Video Editor "}
-          subtitle={"React+Tailwind"}
+          title={"Dashboard "}
+          subtitle={"Using React and Tailwind a modern design Dashboard"}
           githubLink={"https://github.com/akshat1074/Dashboard"}/>      
+       <Card 
+         image={"images/project8.png"}
+          title={"Portfolio "}
+          subtitle={"A portfolio with  React plus Tailwind with animation and 3D model"}
+          githubLink={"https://github.com/akshat1074/Portfolio"}/> 
+       <Card 
+         image={"images/project9.png"}
+          title={"Nike-Clone "}
+          subtitle={"Clone of Nike website"}
+          githubLink={"https://github.com/akshat1074/Nike"}/>       
    
     </div>
     </div>

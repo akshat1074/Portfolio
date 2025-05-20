@@ -36,7 +36,7 @@ const Techcard = ({icon,text}) => {
 
 
   return (
-    <div className='group  h-8 w-28 flex justify-center items-center border border-slate-900/50 rounded-xl  '>
+    <div className='group  h-8 min-w-24 w-auto flex justify-center items-center border border-slate-900/50 rounded-xl  '>
     <div className='  bg-zinc-800 text-amber-50 group hover:bg-amber-50 group rounded-2xl p-1'>
         <div className='flex justify-center items-center gap-1 group hover:text-slate-950'>
           <IconComponent className='pl-2'/>
