@@ -11,7 +11,7 @@ const Button = ({ text, className, id }) => {
         // Only scroll if we found the section and an ID is passed in
         // taht prevents the contact button from scrolling to the top
         if (target && id) {
-          const offset = window.innerHeight * 0.15; // Leave a bit of space at the top
+          const offset = window.innerHeight * 0.25; // Leave a bit of space at the top
 
           // Calculate how far down the page we need to scroll
           const top =

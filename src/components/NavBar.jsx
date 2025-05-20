@@ -24,16 +24,7 @@ const NavBar = () => {
              </a>
 
              <nav className='desktop'>
-                <ul>
-                    {navLinks.map(({link,name})=>(
-                        <li className='group' key={name}>
-                            <a href={link}>
-                               <span>{name}</span>
-                               <span className='underline'/>
-                            </a>
-                        </li>
-                    ))}
-                </ul>
+                
              </nav>
 
              <a href="#contact" className='contact-btn group'>

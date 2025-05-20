@@ -5,7 +5,7 @@ import Discord from '../icons/Discord'
 
 const Contact = () => {
   return (
-    <div className='pl-24 pr-12 py-12 bg-slate-800'>
+    <div id="contact" className='pl-24 pr-12 py-12 bg-slate-800'>
         <div>
             <h1 className='font-mono text-4xl font-bold underline decoration-dashed underline-offset-8 decoration-sky-500'>Get in Touch</h1>
             <p className='pt-4'>If you have any inquiries, please feel free to reach out. You can contact me via email at</p>

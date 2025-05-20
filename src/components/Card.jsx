@@ -26,19 +26,20 @@ const Card = ({image,title,subtitle,liveLink,githubLink}) => {
          </div>
 
          <div className='px-6 pt-2 pb-4 flex justify-between'>
-           <a
+           {/*<a
              href={liveLink}
              className='bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded flex items-center space-x-2 transition-colors duration-300' 
              >
              <ExternalLink size={16}/>
              <span>Live Demo</span>
            </a>
+           */}
            <div className='group'>
            <a href={githubLink} target="_blank" className='flex items-center px-5 py-2 rounded-lg bg-black text-white group-hover:bg-white-50 transition-colors duration-300 '>
                 <div className='group-hover:text-black transition-colors duration-300' >
                    <span className='flex items-center ' >
                       <GithubIcon/>
-                      Github
+                       Github
                    </span>
                 </div>
              </a>
